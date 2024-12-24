@@ -17,8 +17,7 @@ def setup_logging():
 
 
 def create_logs_folder():
-    log_dir = Path("logs")
-    log_dir.mkdir(exist_ok=True)
+    Path("logs").mkdir(exist_ok=True)
 
 
 def main():
